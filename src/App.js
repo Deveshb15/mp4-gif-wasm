@@ -24,10 +24,10 @@ function App() {
 		await ffmpeg.run(
 			"-i",
 			"test.mp4",
-			"-t",
-			"2.5s",
-			"-ss",
-			"2.0",
+			// "-t",
+			// "2.5s",
+			// "-ss",
+			// "2.0",
 			"-f",
 			"gif",
 			"out.gif"
