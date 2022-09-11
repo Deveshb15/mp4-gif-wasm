@@ -24,8 +24,8 @@ function App() {
 		await ffmpeg.run(
 			"-i",
 			"test.mp4",
-			// "-t",
-			// "2.5s",
+			"-t",
+			"15s",
 			// "-ss",
 			// "2.0",
 			"-f",
